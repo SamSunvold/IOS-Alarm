@@ -14,6 +14,11 @@
 		22C2943820D0A3DD00C5F9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C2943620D0A3DD00C5F9B7 /* LaunchScreen.storyboard */; };
 		22C2944320D0A3DE00C5F9B7 /* AlarmMk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2944220D0A3DE00C5F9B7 /* AlarmMk2Tests.swift */; };
 		22C2944E20D0A3DE00C5F9B7 /* AlarmMk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2944D20D0A3DE00C5F9B7 /* AlarmMk2UITests.swift */; };
+		22C2945C20D0A40400C5F9B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2945B20D0A40400C5F9B7 /* AVFoundation.framework */; };
+		22C2946020D0A8BC00C5F9B7 /* alarmbackground1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C2945F20D0A8BC00C5F9B7 /* alarmbackground1.jpg */; };
+		22C2946220D0AADD00C5F9B7 /* Tornado_Siren_II-Delilah-747233690.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22C2946120D0AADD00C5F9B7 /* Tornado_Siren_II-Delilah-747233690.wav */; };
+		22C2946520D8568700C5F9B7 /* Ship_Brass_Bell-Mike_Koenig-1458750630.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C2946420D8568700C5F9B7 /* Ship_Brass_Bell-Mike_Koenig-1458750630.mp3 */; };
+		22C2946720D856C600C5F9B7 /* gentex_cammander_3_code_3_horn-Brandon-938131891.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C2946620D856C600C5F9B7 /* gentex_cammander_3_code_3_horn-Brandon-938131891.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		22C2944920D0A3DE00C5F9B7 /* AlarmMk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmMk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C2944D20D0A3DE00C5F9B7 /* AlarmMk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmMk2UITests.swift; sourceTree = "<group>"; };
 		22C2944F20D0A3DE00C5F9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C2945B20D0A40400C5F9B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22C2945F20D0A8BC00C5F9B7 /* alarmbackground1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alarmbackground1.jpg; path = ../../alarmbackground1.jpg; sourceTree = "<group>"; };
+		22C2946120D0AADD00C5F9B7 /* Tornado_Siren_II-Delilah-747233690.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Tornado_Siren_II-Delilah-747233690.wav"; path = "../../../Downloads/Tornado_Siren_II-Delilah-747233690.wav"; sourceTree = "<group>"; };
+		22C2946420D8568700C5F9B7 /* Ship_Brass_Bell-Mike_Koenig-1458750630.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ship_Brass_Bell-Mike_Koenig-1458750630.mp3"; path = "../../../Downloads/Ship_Brass_Bell-Mike_Koenig-1458750630.mp3"; sourceTree = "<group>"; };
+		22C2946620D856C600C5F9B7 /* gentex_cammander_3_code_3_horn-Brandon-938131891.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "gentex_cammander_3_code_3_horn-Brandon-938131891.mp3"; path = "../../../Downloads/gentex_cammander_3_code_3_horn-Brandon-938131891.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C2945C20D0A40400C5F9B7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +88,7 @@
 		22C2942120D0A3DD00C5F9B7 = {
 			isa = PBXGroup;
 			children = (
+				22C2945B20D0A40400C5F9B7 /* AVFoundation.framework */,
 				22C2942C20D0A3DD00C5F9B7 /* AlarmMk2 */,
 				22C2944120D0A3DE00C5F9B7 /* AlarmMk2Tests */,
 				22C2944C20D0A3DE00C5F9B7 /* AlarmMk2UITests */,
@@ -97,6 +109,7 @@
 		22C2942C20D0A3DD00C5F9B7 /* AlarmMk2 */ = {
 			isa = PBXGroup;
 			children = (
+				22C2946320D0AB0C00C5F9B7 /* Misc */,
 				22C2942D20D0A3DD00C5F9B7 /* AppDelegate.swift */,
 				22C2942F20D0A3DD00C5F9B7 /* ViewController.swift */,
 				22C2943120D0A3DD00C5F9B7 /* Main.storyboard */,
@@ -123,6 +136,17 @@
 				22C2944F20D0A3DE00C5F9B7 /* Info.plist */,
 			);
 			path = AlarmMk2UITests;
+			sourceTree = "<group>";
+		};
+		22C2946320D0AB0C00C5F9B7 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				22C2946120D0AADD00C5F9B7 /* Tornado_Siren_II-Delilah-747233690.wav */,
+				22C2946620D856C600C5F9B7 /* gentex_cammander_3_code_3_horn-Brandon-938131891.mp3 */,
+				22C2946420D8568700C5F9B7 /* Ship_Brass_Bell-Mike_Koenig-1458750630.mp3 */,
+				22C2945F20D0A8BC00C5F9B7 /* alarmbackground1.jpg */,
+			);
+			name = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +217,12 @@
 				TargetAttributes = {
 					22C2942920D0A3DD00C5F9B7 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6ENR7T4Y46;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					22C2943D20D0A3DE00C5F9B7 = {
 						CreatedOnToolsVersion = 7.2;
@@ -230,8 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C2943820D0A3DD00C5F9B7 /* LaunchScreen.storyboard in Resources */,
+				22C2946720D856C600C5F9B7 /* gentex_cammander_3_code_3_horn-Brandon-938131891.mp3 in Resources */,
+				22C2946520D8568700C5F9B7 /* Ship_Brass_Bell-Mike_Koenig-1458750630.mp3 in Resources */,
+				22C2946020D0A8BC00C5F9B7 /* alarmbackground1.jpg in Resources */,
 				22C2943520D0A3DD00C5F9B7 /* Assets.xcassets in Resources */,
 				22C2943320D0A3DD00C5F9B7 /* Main.storyboard in Resources */,
+				22C2946220D0AADD00C5F9B7 /* Tornado_Siren_II-Delilah-747233690.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AlarmMk2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Team2890.AlarmMk2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +447,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AlarmMk2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Team2890.AlarmMk2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +524,7 @@
 				22C2945420D0A3DE00C5F9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C2945520D0A3DE00C5F9B7 /* Build configuration list for PBXNativeTarget "AlarmMk2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +533,7 @@
 				22C2945720D0A3DE00C5F9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C2945820D0A3DE00C5F9B7 /* Build configuration list for PBXNativeTarget "AlarmMk2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +542,7 @@
 				22C2945A20D0A3DE00C5F9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

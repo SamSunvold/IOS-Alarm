@@ -40,7 +40,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func initializeNotificationServices() -> Void {
+        
+        let settings = UIUserNotificationSettings(forTypes: [.Sound, .Alert, .Badge], categories: nil)
+        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+        
+        // This is an asynchronous method to retrieve a Device Token
+        // Callbacks are in AppDelegate.swift
+        // Success = didRegisterForRemoteNotificationsWithDeviceToken
+        // Fail = didFailToRegisterForRemoteNotificationsWithError
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+    }
 
 }
 
